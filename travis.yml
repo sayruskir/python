@@ -5,3 +5,5 @@ notifications:
       - sayrus-team:qLLpRRRSNX0ZqtI7IvMffJsj#random
       - sayrus-team:qLLpRRRSNX0ZqtI7IvMffJsj#devops
       - sayrus-team:qLLpRRRSNX0ZqtI7IvMffJsj#training
+      
+travis encrypt "sayrus-team:qLLpRRRSNX0ZqtI7IvMffJsj" --add notifications.slack
